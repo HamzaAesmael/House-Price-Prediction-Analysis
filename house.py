@@ -143,7 +143,7 @@ train_r2 = ridge.score(x_train, y_train)
 print(f"Training R²: {train_r2:.4f}")
 print(f"Test R²: {test_r2:.4f}")
 
-# Compare with your previous pipeline results
+# Compare with  previous pipeline results
 print("\nComparison with Polynomial Pipeline:")
 print(f"Pipeline Test R²: {pipe.score(x_test, y_test):.4f}")
 
